@@ -27,3 +27,7 @@ class Player extends React.Component {
 }
 
 export default Player;
+
+Player.propTypes = {
+  player: React.PropTypes.object.isRequired
+}
